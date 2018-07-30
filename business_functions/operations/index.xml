@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operations on OWASP SAMM</title>
+    <link>https://owaspsamm.org/business_functions/operations/</link>
+    <description>Recent content in Operations on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/business_functions/operations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Incident Management</title>
+      <link>https://owaspsamm.org/core/operations/o-incident-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/operations/o-incident-management/</guid>
+      <description>Overview     A: Incident Detection B: Incident Response     Maturity 1 - Best-effort incident detection and handling Best-effort incident detection with available log data Defined high-level incident response strategy   Maturity 2 - Formal incident management process in place Automated log evaluation driven by process Root Cause Analysis with feedback loop   Maturity 3 - Mature incident management Reliable timely incident detection Proactive incident + emergency exercises    A: Incident Detection Maturity 1 Activity On the first level, log data (e.</description>
+    </item>
+    
+    <item>
+      <title>Environment Management</title>
+      <link>https://owaspsamm.org/core/operations/o-environment-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/operations/o-environment-management/</guid>
+      <description>Overview     A: Patching (and Updating) B: Hardening     Maturity 1 - Best-effort patching and hardening Prioritized best-effort patching Prioritized best-effort hardening   Maturity 2 - Formal process with baselines in place Formal process covering the full stack Hardening baseline and guidelines available   Maturity 3 - Conformity with continuously improving process enforced Consolidated update process with SLA and reporting Detection and handling of non-conformities    A: Patching (and Updating) Maturity 1 Activity On the first maturity level, you&amp;rsquo;ve identified applications and 3rd party application components which needs to be updated/ patched, nevertheless if it&amp;rsquo;s the underlying operating system, application server or 3rd party code library.</description>
+    </item>
+    
+    <item>
+      <title>Operational Management</title>
+      <link>https://owaspsamm.org/core/operations/o-operational-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/operations/o-operational-management/</guid>
+      <description>Overview The Operational Management practice focuses on activities to ensure security is maintained throughout operational support functions. Although these functions are not performed directly by an application, the overall security of the application and its data is dependent on their proper performance. All of the protections built into an application can be rendered irrelevant by deploying the application on an unpatched system or failing to store backup media securely.</description>
+    </item>
+    
+  </channel>
+</rss>

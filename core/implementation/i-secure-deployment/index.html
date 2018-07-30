@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Secure Deployment - OWASP SAMM</title>
+  
+  <meta name="description" content="Overview     A: Deployment Process B: Configurations/Secret Management     Maturity 1 - Deployment processes are fully documented Deployment is automated or done by someone other than the developer. Configuration files are versioned and protected   Maturity 2 - Deployment processes include security verification milestores Integration of security verification in deployment (e.g. binary static code analysis / AV scan) Configuration files do not contain unencrypted sensitive configuration information   Maturity 3 - Deployment process if fully automated and incorporates automated verification of all critical milestones Integrity of the code is verified prior to deployment Deployment process automatically generates / initializes credentials and authentication keys    A: Deployment Process Maturity 1 Activity Developers should not be directly involved in deploying applications.">
+  <meta name="author" content="">
+  
+  <link href="/css/semantic.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+</head>
+<body class="single">
+  <header class="ui container">
+    <h1 class="ui header">
+      <div class="content">
+        OWASP SAMM
+        <div class="sub header">Software Assurance Maturity Model</div>
+      </div>
+    </h1>
+  </header>
+  <main class="ui container">
+
+
+<h1 class="ui huge dividing header">
+  Secure Deployment
+</h1>
+
+<div class="ui buttons">
+  <a href="/" class="ui green button"><i class="hand point left icon"></i> Back</button>
+  <a href="https://github.com/OWASP/samm/edit/master/v2.0/beta/core/implementation/i-secure-deployment.md" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="ui labels">
+  <div class="ui green label">
+    Business function
+    <div class="detail">Implementation</div>
+  </div>
+  <div class="ui orange label">
+    Assigned to
+    <div class="detail">Chris Cooper (chris.cooper@owasp.org)</div>
+  </div>
+</div>
+
+
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Deployment Process</th>
+<th align="left">B: Configurations/Secret Management</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Deployment processes are fully documented</td>
+<td align="left">Deployment is automated or done by someone other than the developer.</td>
+<td align="left">Configuration files are versioned and protected</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Deployment processes include security verification milestores</td>
+<td align="left">Integration of security verification in deployment (e.g. binary static code analysis / AV scan)</td>
+<td align="left">Configuration files do not contain unencrypted sensitive configuration information</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Deployment process if fully automated and incorporates automated verification of all critical milestones</td>
+<td align="left">Integrity of the code is verified prior to deployment</td>
+<td align="left">Deployment process automatically generates / initializes credentials and authentication keys</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-deployment-process">A: Deployment Process</h1>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="activity">Activity</h3>
+
+<p>Developers should not be directly involved in deploying applications.</p>
+
+<h4 id="maturity-questions">Maturity Questions</h4>
+
+<h5 id="q-1">Q 1</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h4 id="notes">Notes</h4>
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>Implement a wide-range of malware detection</p>
+
+<h3 id="maturity-questions-1">Maturity Questions</h3>
+
+<h4 id="q-1-1">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h4 id="notes-1">Notes</h4>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>Ensure effectiveness through proper key management and verification procedures</p>
+
+<h3 id="maturity-questions-2">Maturity Questions</h3>
+
+<h4 id="q-1-2">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h4 id="notes-2">Notes</h4>
+
+<h1 id="b-configurations-secret-management">B: Configurations/Secret Management</h1>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>Configuration files should be treated as code</p>
+
+<h3 id="maturity-questions-3">Maturity Questions</h3>
+
+<h4 id="q-1-3">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h4 id="notes-3">Notes</h4>
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Use encryption or a centralized vault to protect sensitive coniguration information</p>
+
+<h3 id="maturity-questions-4">Maturity Questions</h3>
+
+<h4 id="q-1-4">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h4 id="notes-4">Notes</h4>
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>Deployment process initiates and distributes access credentials</p>
+
+<h3 id="maturity-questions-5">Maturity Questions</h3>
+
+<h4 id="q-1-5">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+
+<div class="ui section divider"></div>
+<footer class="ui container footer">
+  <div class="ui stackable grid">
+    <div class="ui three wide column">
+      <a href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.png" /></a>
+    </div>
+    <div class="ui thirteen wide column">
+      <h3 class="ui blue sub header">This is an OWASP Project</h3>
+      <p>OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <a href="https://www.owasp.org/">https://www.owasp.org/</a>.</p>
+    </div>
+  </div>
+  <div class="ui stackable grid">
+    <div class="ui three wide column">
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+    </div>
+    <div class="ui thirteen wide column">
+      <h3 class="ui blue sub header">CC BY-SA 4.0</h3>
+      <p>This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/semantic.min.js" data-no-instant></script>
+</body>
+</html>
+

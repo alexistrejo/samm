@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on OWASP SAMM</title>
+    <link>https://owaspsamm.org/business_functions/design/</link>
+    <description>Recent content in Design on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/business_functions/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Threat Assessment</title>
+      <link>https://owaspsamm.org/core/design/d-threat-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/design/d-threat-assessment/</guid>
+      <description>Overview     A: Risk Profile B: Threat Modeling     Maturity 1 - Identify and understand high-level threats to the organization and individual projects. Basic Application Risk Questionnaire/Classification (BIA) Best effort ad-hoc threat modeling   Maturity 2 - Create an inventory of risk profiles. Standardized threat modeling   Maturity 3 - Periodic review of risk profiles. Improve organisation with output of threat modelling    A: Risk Profile Maturity 1 Activity As an organisation, you want to spend your security effort where it matters.</description>
+    </item>
+    
+    <item>
+      <title>Security Requirements</title>
+      <link>https://owaspsamm.org/core/design/d-security-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/design/d-security-requirements/</guid>
+      <description>Overview     A: Software Requirements B: 3-rd Party Requirements     Maturity 1 - Consider security explicitly during the software requirements process. High-level application security objectives Evaluate the supplier according on security   Maturity 2 - Increase granularity of security requirements derived from business logic and known risks. Requirements from policies, threats, risks, � Build security into supplier agreements   Maturity 3 - Mandate security requirements process for all software projects and third-party dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Security Architecture</title>
+      <link>https://owaspsamm.org/core/design/d-security-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/design/d-security-architecture/</guid>
+      <description>Overview     A: Secure Architecture Design B: Technology Management     Maturity 1 - Insert consideration of proactive security guidance into the software design process. Identify basic design principles Elicit technologies, frameworks and integrations within the overall solution   Maturity 2 - Direct the software design process toward known- secure services and secure-by-default designs. Standardize design patterns and security solutions Standardize technologies and frameworks to be used throughout the different applications   Maturity 3 - Formally control the software design process and validate utilization of secure components.</description>
+    </item>
+    
+  </channel>
+</rss>

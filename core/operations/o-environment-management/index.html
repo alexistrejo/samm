@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Environment Management - OWASP SAMM</title>
+  
+  <meta name="description" content="Overview     A: Patching (and Updating) B: Hardening     Maturity 1 - Best-effort patching and hardening Prioritized best-effort patching Prioritized best-effort hardening   Maturity 2 - Formal process with baselines in place Formal process covering the full stack Hardening baseline and guidelines available   Maturity 3 - Conformity with continuously improving process enforced Consolidated update process with SLA and reporting Detection and handling of non-conformities    A: Patching (and Updating) Maturity 1 Activity On the first maturity level, you&rsquo;ve identified applications and 3rd party application components which needs to be updated/ patched, nevertheless if it&rsquo;s the underlying operating system, application server or 3rd party code library.">
+  <meta name="author" content="">
+  
+  <link href="/css/semantic.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+</head>
+<body class="single">
+  <header class="ui container">
+    <h1 class="ui header">
+      <div class="content">
+        OWASP SAMM
+        <div class="sub header">Software Assurance Maturity Model</div>
+      </div>
+    </h1>
+  </header>
+  <main class="ui container">
+
+
+<h1 class="ui huge dividing header">
+  Environment Management
+</h1>
+
+<div class="ui buttons">
+  <a href="/" class="ui green button"><i class="hand point left icon"></i> Back</button>
+  <a href="https://github.com/OWASP/samm/edit/master/v2.0/beta/core/operations/o-environment-management.md" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="ui labels">
+  <div class="ui green label">
+    Business function
+    <div class="detail">Operations</div>
+  </div>
+  <div class="ui orange label">
+    Assigned to
+    <div class="detail">Daniel (dan.kefer@gmail.com)</div>
+  </div>
+</div>
+
+
+
+<h1 id="overview">Overview</h1>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Patching (and Updating)</th>
+<th align="left">B: Hardening</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Best-effort patching and hardening</td>
+<td align="left">Prioritized best-effort patching</td>
+<td align="left">Prioritized best-effort hardening</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 - Formal process with baselines in place</td>
+<td align="left">Formal process covering the full stack</td>
+<td align="left">Hardening baseline and guidelines available</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 - Conformity with continuously improving process enforced</td>
+<td align="left">Consolidated update process with SLA and reporting</td>
+<td align="left">Detection and handling of non-conformities</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-patching-and-updating">A: Patching (and Updating)</h1>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="activity">Activity</h3>
+
+<p>On the first maturity level, you&rsquo;ve identified applications and 3rd party application components which needs to be updated/ patched, nevertheless if it&rsquo;s the underlying operating system, application server or 3rd party code library.  You have defined the updating process at least on a high level, so that possible necessary cooperation between multiple teams is guaranteed if necessary and patching can be carried out anytime in case of need (e.g. exploit for a 3rd party component publicly available).</p>
+
+<p>You&rsquo;re able to find out reasonably quickly the used versions of all components in order to evaluate whether you&rsquo;re affected by a particular public security vulnerability or not.</p>
+
+<h4 id="maturity-questions">Maturity Questions</h4>
+
+<h5 id="q-1">Q 1</h5>
+
+<p>Do projects document operational environment security requirements?</p>
+
+<p><strong>Answer Options</strong>
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do</p>
+
+<h4 id="notes">Notes</h4>
+
+<p>activities would be different for container based deployments
+implictly assumes you have an overview of what needs to be patched.
+coverage can be measured with the Q&amp;As
+use maintenance windows to oppurtunistically patch/upgrade software
+you know what patches are missing
+identify patching dependencies
+L1 - identify what matters and what is missing and prioritized best-effort patching
+L2 - strategy , process , calendar
+L3 - SLA / reporting</p>
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>Update process is defined and documented across the full stack. Patches are not only applied when they are available; external sources are also used in order to gather intelligence about zero day vulnerabilities so that appropriate risk mitigation steps can be carried out.</p>
+
+<p>There is a guidance for prioritization of particular updates, let it be the criticality of the application, severity of security issues or whichever other concerns which are important to your organization.</p>
+
+<p>All newly implemented applications are a part of the defined process. Checking for the update process conformity is also a part of the quality assurance activities.</p>
+
+<h3 id="maturity-questions-1">Maturity Questions</h3>
+
+<h4 id="q-1-1">Q 1</h4>
+
+<p>Is a consistent process used to apply upgrades and patches to critical dependencies?</p>
+
+<p><strong>Answer Options</strong>
+SAMMQA-G:
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required</p>
+
+<h4 id="notes-1">Notes</h4>
+
+<p>baseline or target levels defined
+patch/upgrade calendar followed
+manage process information (e.g. gap)</p>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>On the third level, you have a very good insight in the patching strategy over the organization and full stack. Missing updates are triaged and handled according to rules and SLAs stemming from the defect management practice. It is guaranteed that patching can take place anytime so that SLAs can be adhered to.</p>
+
+<p>If there are applications with worse patch level, the situation is analyzed and corrective actions are performed if reasonable.</p>
+
+<p>Continuous process improvement is checked for regularly.</p>
+
+<h3 id="maturity-questions-2">Maturity Questions</h3>
+
+<h4 id="q-1-2">Q 1</h4>
+
+<p>Are stakeholders aware of options for additional tools to protect software while running in operations?</p>
+
+<p><strong>Answer Options</strong>
+SAMMQA-F:
+- No
+- Yes, teams write/run their own
+- Yes, there is a standard set
+- Yes, the standard set is integrated</p>
+
+<h4 id="notes-2">Notes</h4>
+
+<h1 id="b-hardening">B: Hardening</h1>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>Responsibilities for hardening software components across the full stack are defined and known. Software components are hardened according to publicly available sources with best practises.</p>
+
+<h3 id="maturity-questions-3">Maturity Questions</h3>
+
+<h4 id="q-1-3">Q 1</h4>
+
+<p>Do projects check for security updates to third-party software components?</p>
+
+<p><strong>Answer Options</strong>
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do</p>
+
+<h4 id="notes-3">Notes</h4>
+
+<p>description more L2 aligned, versus best-effort
+full stack - too &ldquo;devopsy&rdquo;?
+definition = configuration hardening?
+L1 = identify what matters to protect your environment and what is missing and prioritized best-effort hardening</p>
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>Hardening process is defined and documented across the full stack. Hardening baselines are available and used consistently.</p>
+
+<h3 id="maturity-questions-4">Maturity Questions</h3>
+
+<h4 id="q-1-4">Q 1</h4>
+
+<p>Do projects leverage automation to check application and environment health?</p>
+
+<p><strong>Answer Options</strong>
+SAMMQA-C:
+- No
+- Yes, a small percentage are/do
+- Yes, at least half of them are/do
+- Yes, the majority of them are/do</p>
+
+<h4 id="notes-4">Notes</h4>
+
+<p>standards in place
+standard way if deploying the baselines</p>
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>Conformity with the hardening baselines is reliably evaluated. Nonconformities are handled as security findings, triaged and handled according to rules and SLAs stemming from the defect management practice.</p>
+
+<h3 id="maturity-questions-5">Maturity Questions</h3>
+
+<h4 id="q-1-5">Q 1</h4>
+
+<p>Does a minimum security baseline exist for environment health (versioning, patching, etc)?</p>
+
+<p><strong>Answer Options</strong>
+SAMMQA-G:
+- No
+- Yes, localized to business areas
+- Yes, across the organization
+- Yes, across the organization and required</p>
+
+<h4 id="notes-5">Notes</h4>
+
+<p>non-conformities / self-healing (overwriting)</p>
+
+
+<div class="ui section divider"></div>
+<footer class="ui container footer">
+  <div class="ui stackable grid">
+    <div class="ui three wide column">
+      <a href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.png" /></a>
+    </div>
+    <div class="ui thirteen wide column">
+      <h3 class="ui blue sub header">This is an OWASP Project</h3>
+      <p>OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <a href="https://www.owasp.org/">https://www.owasp.org/</a>.</p>
+    </div>
+  </div>
+  <div class="ui stackable grid">
+    <div class="ui three wide column">
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+    </div>
+    <div class="ui thirteen wide column">
+      <h3 class="ui blue sub header">CC BY-SA 4.0</h3>
+      <p>This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/semantic.min.js" data-no-instant></script>
+</body>
+</html>
+

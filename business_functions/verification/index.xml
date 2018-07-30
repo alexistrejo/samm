@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verification on OWASP SAMM</title>
+    <link>https://owaspsamm.org/business_functions/verification/</link>
+    <description>Recent content in Verification on OWASP SAMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://owaspsamm.org/business_functions/verification/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Architecture Assessment</title>
+      <link>https://owaspsamm.org/core/verification/v-architecture-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/verification/v-architecture-assessment/</guid>
+      <description>Proposed Overview (updated objectives)     A: Application Architecture B: Supporting Architecture     Maturity 1 - Review the architecture to ensure baseline mitigations are in place for known risks. Analyze application architecture against known security requirements and security best practices Analyze supporting architecture against known security requirements and best practices   Maturity 2 - Review the complete provision of security mechanisms in the architecture Standardized approach for complete provision review of security mechanisms in application architecture Standardized approach for complete provision review of security mechanisms in the supporing architecture   Maturity 3 - Require assessments and validate artifacts to develop detailed understanding of protection mechanisms.</description>
+    </item>
+    
+    <item>
+      <title>Requirements Driven Testing</title>
+      <link>https://owaspsamm.org/core/verification/v-requirements-driven-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/verification/v-requirements-driven-testing/</guid>
+      <description>Overview     A: Control Verification B: Misuse/Abuse Testing     Maturity 1 - Opportunistically find basic vulnerabilities and other security issues. Test for standard security controls Perform security fuzzing testing   Maturity 2 - Perform implementation review to discover application-specific risks against the security requirements. Derive test cases from known security requirements Create and test abuse cases and business logic flaw test   Maturity 3 - Maintain the application security level after bug fixes, changes or during maintenance Perform regression testing (with security unit tests) Denial of service and security stress testing    Overview A: Control Verification Maturity 1 - Test for standard security controls Activity Conduct security tests to verify that the standard security controls operate as expected.</description>
+    </item>
+    
+    <item>
+      <title>Security Testing</title>
+      <link>https://owaspsamm.org/core/verification/v-security-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://owaspsamm.org/core/verification/v-security-testing/</guid>
+      <description>Updated Overview     A: Scalable Baseline B: Deep Understanding     Maturity 1 - Perform security testing (both manual and tool based) to discover security defects. Utilize automated security testing tools Perform manual security testing of high-risk components   Maturity 2 - Make security testing during development more complete and efficient through automation complemented with regular manual security penetration tests Employ application-specific security testing automation Conduct manual penetration testing   Maturity 3 - Embed security testing as part of the development and deployment processes.</description>
+    </item>
+    
+  </channel>
+</rss>
