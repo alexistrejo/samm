@@ -18,8 +18,6 @@ Este es un proyecto OWASP
 
 #![OWASP LOGO HERE](Logo.png)
 
-OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <https://www.owasp.org>.
-
 OWASP es una organización internacional y la Fundación OWASP apoya los esfuerzos de OWASP en todo el mundo. OWASP es una comunidad abierta dedicada a permitir a las organizaciones concebir, desarrollar, adquirir, operar y mantener aplicaciones en las que se pueda confiar. Todas las herramientas, documentos, foros y capítulos de OWASP son libres (como en "Software Libre", N. del T.) y abiertos a cualquier persona interesada en mejorar la seguridad de las aplicaciones. Abogamos por abordar la seguridad de las aplicaciones como un problema de personas, procesos y tecnología, ya que los enfoques más efectivos para la seguridad de las aplicaciones incluyen mejoras en todas estas áreas. Nos puede encontrar en <https://www.owasp.org>.
 
 ### Licencia
@@ -59,47 +57,47 @@ La base del modelo se construye sobre las funciones básicas del negocio del des
 Como un proyecto abierto, el contenido de SAMM siempre permanecerá agnóstico a proveedor alguno y libremente accesible para su uso por todos.
 
 #![SAMM Overview Image Here](SAMM-Overview.png )
-# Contents
+# Contenido
 
-Executive Summary  3
-#### Understanding the model 6
-Business Functions  8 
+Resumen ejecutivo  3
+#### entendiendo el modelo 6
+Funciones de Negocio  8 
 
-Governance 10 
+Gobierno 10 
 
-Construction 12 
+Construcción 12 
 
-Verification 14 
+Verificación 14 
 
-Operations 16 
+Operaciones 16 
 
-Assessment worksheets 18
+Hojas de Evaluación 18
 
-#### The Security Practices 22
+#### Prácticas de Seguridad 22
 
-Strategy & Metrics 24 
+Estrategia y Métricas 24 
 
-Policy & Compliance 28 
+Políticas y Cumplimiento 28 
 
-Education & Guidance 32 
+Educación y Asesoramiento 32 
 
-Threat Assessment 36 
+Evaluación de Amenazas 36 
 
-Security Requirements 40 
+Requerimientos de Seguridad 40 
 
-SecureArchitecture 44 
+Arquitectura segura 44 
 
-Design Review 48 
+Revisión de Diseño 48 
 
-Implementation Review 52 
+Revisión de Implementación 52 
 
-SecurityTesting 56 
+Pruebas de Seguridad 56 
 
-Issue Management 60 
+Gestión de Incidentes 60 
 
-Environment Hardening 64 
+Aseguramiento del Ambiente 64 
 
-Operational Enablement 68
+Habilitación Operativa 68
 
 
 #!['Understanding the Model' Image pages Here](UnderstaingModel.png)
