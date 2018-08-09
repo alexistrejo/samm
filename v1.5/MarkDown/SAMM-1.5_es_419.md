@@ -40,8 +40,6 @@ La versión 1.1 de SAMM amplió y reestructuró a su predecesora con cuatro recu
 
 La versión 1.5 de SAMM incorpora un refinamiento del modelo de puntuación para proporcionar más granularidad al puntaje en una evaluación. Ahora una organización obtendrá mérito por todo el trabajo realizado relacionado con una práctica, en lugar de tener sólo el número base del nivel de madurez más alto completado. El modelo de puntuación actualizado se ha diseñado para ayudar a los evaluadores de SAMM, y a las organizaciones, a evitar la discusión incómoda sobre si marcar una respuesta sí o no, cuando honestamente es algo intermedio, y a mostrar mejoras incrementales.
 
-SAMM was defined with flexibility in mind such that it can be utilized by small, medium, and large organizations using any style of development. Additionally, this model can be applied organization-wide, for a single line-of-business, or even for an individual project. Beyond these traits, SAMM was built on the following principles:
-
 SAMM se definió con la flexibilidad en mente, de modo que pueda ser utilizado por organizaciones pequeñas, medianas y grandes, que utilizan cualquier estilo de desarrollo. Además, este modelo se puede aplicar en toda la organización, en una sola línea de negocio, o incluso en un proyecto individual. Más allá de estos rasgos, SAMM fue construido sobre los siguientes principios:
 
 ✦ El comportamiento de una organización cambia lentamente con el tiempo: Un programa de seguridad de software exitoso se debe especificar en iteraciones pequeñas, que brinden ganancias de seguridad tangibles, mientras se trabaja incrementalmente hacia objetivos de largo plazo.
