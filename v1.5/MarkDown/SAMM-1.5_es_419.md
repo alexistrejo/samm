@@ -60,7 +60,7 @@ Como un proyecto abierto, el contenido de SAMM siempre permanecerá agnóstico a
 # Contenido
 
 Resumen ejecutivo  3
-#### entendiendo el modelo 6
+#### Entendiendo el modelo 6
 Funciones de Negocio  8 
 
 Gobierno 10 
@@ -101,15 +101,16 @@ Habilitación Operativa 68
 
 
 #!['Understanding the Model' Image pages Here](UnderstaingModel.png)
-######SAMM is built upon a collection of security practices that are tied back into the core business functions involved in software development. This section introduces those business functions and the corresponding security practices for each. After covering the high-level framework, the maturity levels for each security practice are also discussed briefly in order to paint a picture of how each can be iteratively improved over time.
+###### SAMM se basa en una colección de prácticas de seguridad que están ligadas a las principales funciones de negocio involucradas en el desarrollo de software. Esta sección presenta esas funciones de negocio y las prácticas de seguridad correspondientes para cada una. Después de cubrir el marco de alto nivel, se discuten brevemente los niveles de madurez para cada práctica de seguridad, mostrando una imagen de cómo cada uno puede mejorarse iterativamente en el tiempo.
 
-# Business Functions
+# Funciones de Negocio
 
-**At the highest level, SAMM defines four critical business functions.** Each business function is a category of activities related to the nuts-and-bolts of software development, or stated another way, any organization involved with software development must fulfill each of these business functions to some degree.
+** En su nivel más alto, SAMM define cuatro funciones de negocio críticas. ** Cada función de negocio es una categoría de actividades relacionadas con aspectos prácticos del desarrollo de software, o dicho de otra forma, cualquier organización involucrada en el desarrollo de software debe cumplir, en cierta medida, con cada una de estas funciones de negocio.
 
-**For each business function, SAMM defines three security practices.** Each security practice is an area of security-related activities that build assurance for the related business function. There are twelve security practices that are the independent silos for improvement that map to the four business functions of software development.
+** Para cada función de negocio SAMM define tres prácticas de seguridad. ** Cada práctica de seguridad es un área de actividades (relacionadas con la seguridad) que asegura la función de negocio relacionada. Hay doce prácticas de seguridad que son silos de mejora independientes que tienen correspondencia con las cuatro funciones de negocio del desarrollo de software.
 
-**For each security practice, SAMM defines three maturity levels as objectives.** Each level within a security practice is characterized by a successively more sophisticated objective defined by specific activities, and more stringent success metrics than the previous level. Additionally, each security practice can be improved independently, though related activities can lead to optimizations.
+** Para cada práctica de seguridad SAMM define tres niveles de madurez como objetivos. ** Cada nivel, dentro de una práctica de seguridad, se caracteriza por un objetivo sucesivamente más sofisticado. Definido por actividades específicas y métricas de éxito más estrictas que el nivel anterior. Además, cada práctica de seguridad puede mejorarse de forma independiente, aunque las actividades relacionadas pueden conducir a optimizaciones.
+
 
 ## Governance
 Governance is centered on the processes and activities related to how an organization manages overall software development activities. More specifically, this includes concerns that impact cross-functional groups involved in development, as well as business processes that are established at the organization level.
