@@ -59,7 +59,7 @@ Como un proyecto abierto, el contenido de SAMM siempre permanecerá agnóstico a
 
 Resumen ejecutivo  3
 #### Entendiendo el modelo 6
-Funciones de Negocio  8 
+Funciones de negocio  8 
 
 Gobierno 10 
 
@@ -69,39 +69,39 @@ Verificación 14
 
 Operaciones 16 
 
-Hojas de Evaluación 18
+Hojas de evaluación 18
 
-#### Prácticas de Seguridad 22
+#### Prácticas de seguridad 22
 
-Estrategia y Métricas 24 
+Estrategia y métricas 24 
 
-Políticas y Cumplimiento 28 
+Políticas y Ccmplimiento 28 
 
-Educación y Asesoramiento 32 
+Educación y asesoramiento 32 
 
-Evaluación de Amenazas 36 
+Evaluación de amenazas 36 
 
-Requerimientos de Seguridad 40 
+Requerimientos de seguridad 40 
 
 Arquitectura segura 44 
 
-Revisión de Diseño 48 
+Revisión de diseño 48 
 
-Revisión de Implementación 52 
+Revisión de implementación 52 
 
-Pruebas de Seguridad 56 
+Pruebas de seguridad 56 
 
-Gestión de Incidentes 60 
+Gestión de incidentes 60 
 
-Aseguramiento del Ambiente 64 
+Aseguramiento del ambiente 64 
 
-Habilitación Operativa 68
+Habilitación operativa 68
 
 
 #!['Understanding the Model' Image pages Here](UnderstaingModel.png)
 ###### SAMM se basa en una colección de prácticas de seguridad que están ligadas a las principales funciones de negocio involucradas en el desarrollo de software. Esta sección presenta esas funciones de negocio y las prácticas de seguridad correspondientes para cada una. Después de cubrir el marco de alto nivel, se discuten brevemente los niveles de madurez para cada práctica de seguridad, mostrando una imagen de cómo cada uno puede mejorarse iterativamente en el tiempo.
 
-# Funciones de Negocio
+# Funciones de negocio
 
 ** En su nivel más alto, SAMM define cuatro funciones de negocio críticas. ** Cada función de negocio es una categoría de actividades relacionadas con aspectos prácticos del desarrollo de software, o dicho de otra forma, cualquier organización involucrada en el desarrollo de software debe cumplir, en cierta medida, con cada una de estas funciones de negocio.
 
@@ -110,16 +110,16 @@ Habilitación Operativa 68
 ** Para cada práctica de seguridad SAMM define tres niveles de madurez como objetivos. ** Cada nivel, dentro de una práctica de seguridad, se caracteriza por un objetivo sucesivamente más sofisticado. Definido por actividades específicas y métricas de éxito más estrictas que el nivel anterior. Además, cada práctica de seguridad puede mejorarse de forma independiente, aunque las actividades relacionadas pueden conducir a optimizaciones.
 
 
-## Governance
-Governance is centered on the processes and activities related to how an organization manages overall software development activities. More specifically, this includes concerns that impact cross-functional groups involved in development, as well as business processes that are established at the organization level.
+## Gobierno
+El gobierno se centra en los procesos y las actividades relacionadas con la forma en que una organización gestiona las actividades generales de desarrollo de software. Más específicamente, incluye las aspectos que afectan a los grupos interfuncionales que participan en el desarrollo, así como a los procesos de negocio que se establecen a nivel de organización.
 
-**Strategy & Metrics** involves the overall strategic direction of the software assurance program and instrumentation of processes and activities to collect metrics about an or- ganization’s security posture.
+**Estrategia y métricas** involucra la dirección estratégica general del programa de aseguramiento de software y la instrumentación de procesos y actividades para recopilar métricas sobre el estado de seguridad de una organización.
 
-**Policy & Compliance** involves setting up a security, compliance, and audit control framework throughout an organization to achieve increased assurance in software under contruction and in operation.
+**Politicas y cumplimiento** implica la creación de un marco de control de seguridad, cumplimiento y auditoría en toda la organización para lograr una mayor seguridad en el software en construcción y en funcionamiento.
 
-**Education & Guidance** involves increasing security knowledge amongst personnel in software development through training and guidance on security topics relevant to individual job functions.
+**Educacion y asesoramiento** implica aumentar el conocimiento sobre seguridad entre el personal de desarrollo de software, a través de capacitación y orientación sobre temas de seguridad relevantes para sus funciones laborales individuales.
 
-…*more on page 10*
+…*más en la página 10*
 
 ## Construction: 
 Construction concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include product management, requirements gathering, high-level architecture specification, detailed design, and implementation.
