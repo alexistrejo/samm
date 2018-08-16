@@ -81,7 +81,7 @@ Educación y asesoramiento 32
 
 Evaluación de amenazas 36 
 
-Requerimientos de seguridad 40 
+Requisitos de seguridad 40 
 
 Arquitectura segura 44 
 
@@ -121,27 +121,27 @@ El gobierno se centra en los procesos y las actividades relacionadas con la form
 
 …*más en la página 10*
 
-## Construction: 
-Construction concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include product management, requirements gathering, high-level architecture specification, detailed design, and implementation.
+## Construcción: 
+Construcción se refiere a los procesos y actividades relacionadas con la forma en que una organización define metas y crea software dentro de los proyectos de desarrollo. En general, esto incluirá gestión de producto, recopilación de requisitos, especificación de la arquitectura de alto nivel, diseño detallado e implementación.
 
-**Threat Assessment** involves accurately identifying and characterizing potential attacks upon an organization’s software in order to better understand the risks and facilitate risk management.
+**Evaluación de amenazas** implica identificar y caracterizar con precisión los ataques potenciales al software de una organización con el fin de comprender mejor los riesgos y facilitar la gestión de los mismos.
 
-**Security Requirements** involves promoting the inclusion of security-related requirements during the software development process in order to specify correct functional-ity from inception.
+**Requisitos de seguridad** implica promover la inclusión de requisitos relacionados con la seguridad durante el proceso de desarrollo del software, a fin de especificar la funcionalidad correcta desde el inicio.
 
-**Secure Architecture** involves bolstering the design process with activities to promote secure-by-default designs and control over technologies and frameworks upon which software is built.
+**Arquitectura segura** implica reforzar el proceso de diseño con actividades que promuevan diseños seguros por defecto y el control sobre tecnologías y marcos de trabajo con los cuales se construye el software.
 
-…*more on page 12*
+…*más en la página 12*
 
-## Verification
-Verification is focused on the processes and activities related to how an organization checks, and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.
+## Verificación
+La verificación se centra en los procesos y las actividades relacionadas con la forma en que una organización verifica y prueba los artefactos producidos durante el desarrollo del software. Por lo general, esto incluye el trabajo de aseguramiento de la calidad, como pruebas, pero también puede incluir otras actividades de revisión y evaluación.
 
-**Design Review** involves inspection of the artifacts created from the design process to ensure provision of adequate security mechanisms, and adherence to an organization’s expectations for security.
+**Revisión de diseño** implica la inspección de los artefactos creados a por el proceso de diseño para garantizar el aprovisionamiento de mecanismos de seguridad adecuados y el cumplimiento de las expectativas de seguridad de una organización.
 
-**Implementation Review** involves assessment of an organization’s source code to aid vulnerability discovery and related mitigation activities as well as establish a baseline for secure coding expectations.
+**Revisión de implementación** implica la evaluación del código fuente de una organización para ayudar al descubrimiento de vulnerabilidades y las actividades de mitigación relacionadas, así como establecer una línea base para las expectativas de codificación segura.
 
-**Security Testing** involves testing the organization’s software in its runtime environment, in order to both discover vulnerabilities, and establish a minimum standard for software releases.
+**Pruebas de seguridad** implica probar el software de la organización en su entorno de tiempo de ejecución, a fin de descubrir vulnerabilidades y establecer un estándar mínimo para las versiones de software.
 
-…*more on page 14*
+…*más en la página 14*
 
 ## Operations
 Operations entails the processes and activities related to how an organization manages software releases that has been created. This can involve shipping products to end users, deploying products to internal or external hosts, and normal operations of software in the runtime environment.
