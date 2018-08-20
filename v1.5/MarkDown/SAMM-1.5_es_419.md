@@ -93,7 +93,7 @@ Pruebas de seguridad 56
 
 Gestión de incidentes 60 
 
-Aseguramiento del ambiente 64 
+Reforzamiento del entorno 64 
 
 Habilitación operativa 68
 
@@ -143,38 +143,38 @@ La verificación se centra en los procesos y las actividades relacionadas con la
 
 …*más en la página 14*
 
-## Operations
-Operations entails the processes and activities related to how an organization manages software releases that has been created. This can involve shipping products to end users, deploying products to internal or external hosts, and normal operations of software in the runtime environment.
+## Operaciones
+Las operaciones comprenden las actividades y procesos relacionados con la forma en que una organización gestiona las versiones de software que se han creado. Esto puede implicar el envío de productos a usuarios finales, la implementación de productos en servidores internos o externos y las operaciones normales del software en su entorno de ejecución.
 
-**Issue Management** involves establishing consistent processes for managing internal and external vulnerability reports to limit exposure and gather data to enhance the security assurance program.
+**Gestión de incidentes** implica establecer procesos coherentes para la gestión de informes de vulnerabilidades, internos y externos, para limitar la exposición y recabar datos para mejorar el programa de aseguramiento.
 
-**Environment Hardening** involves implementing controls for the operating environment surrounding an organization’s software to bolster the security posture of applications that have been deployed.
+**Reforzamiento del entorno** implica la implementación de controles en el entorno operativo que rodea el software de una organización para reforzar la postura de seguridad de las aplicaciones que se han implementado.
 
-**Operational Enablement** involves identifying and capturing security-relevant information needed by an operator to properly configure, deploy, and run an organization’s software.
+**Habilitación operativa** implica identificar y capturar información relevante de seguridad que necesita un operador para configurar, implementar y ejecutar correctamente el software de una organización.
 
-*…more on page 16*
+*…más en la página 16*
 
-### Maturity Levels
+### Niveles de madurez
 
-Each of the twelve security practices has three defined maturity levels and an implicit starting point at zero. The details for each level differs between the practices, but they generally represent:
+Cada una de las doce prácticas de seguridad tiene tres niveles de madurez definidos con un punto de partida implícito en cero. Los detalles para cada nivel difieren entre las prácticas, pero generalmente representan:
 
-* 0. Implicit starting point representing the activities in the practice being unfulfilled
-* 1. Initial understanding and adhoc provision of security practice
-* 2. Increase efficiency and/or effectiveness of the security practice
-* 3. Comprehensive mastery of the security practice at scale
+* 0. Punto de partida implícito que representa las actividades, de la práctica, no cumplidas
+* 1. Comprensión inicial y provisión ad hoc de prácticas de seguridad
+* 2. Aumentar la eficiencia y / o efectividad de la práctica de seguridad
+* 3. Dominio completo de la práctica de seguridad a escala
 
-Assurance programs might not always consist of activities that neatly fall on a boundary between maturity levels, e.g. an organization that assesses to a Level 1 for a given practice might also have additional activities in place but not such that Level 2 is completed. Prior to v1.5, the organization’s score should be annotated with a “**+**” symbol to indicate there’s additional assurances in place beyond those indicated by the Level obtained. For example, an organization that is performing all Level 1 activities for operational enablement as well as one Level 2 or 3 activity would be assigned a “**1+**” score. Likewise, an organization performing all activities for a security practice, including some beyond the scope of SAMM, would be given a "**3+**" score.
+Los programas de aseguramiento no siempre consisten en actividades que cae claramente en el límite entre los niveles de madurez, por ejemplo, una organización que evalúa a un Nivel 1 para una práctica determinada también podría cumplir con actividades adicionales, pero no tal que se complete el Nivel 2. Antes de la v1.5, el puntaje de la organización debía ser marcado con un símbolo de "**+**" para indicar que existen garantías adicionales más allá de las indicadas por el Nivel obtenido. Por ejemplo, a una organización que está realizando todas las actividades de Nivel 1 para habilitación operativa, así como alguna actividad de Nivel 2 o 3, se le asignará un puntaje de "**1+**". Del mismo modo, una organización que realiza todas las actividades para una práctica de seguridad, incluidas algunas más allá del alcance de SAMM, recibiría un puntaje de "**3+**".
 
-The scoring model has changed in v1.5 to provide more granularity to the scoring in an assessment. Now an organization will get credit for different levels of work they have done within a practice rather than having the base number held at the highest completed maturity level. The scoring is now fractional to two decimal places for each practice and a single decimal for an answer. Questions have also been changed from Yes/No to four options that represent different levels of coverage or maturity. This change will assist practitioners completing SAMM assessments with the inevitable debate whether to mark an answer yes or no when it is honestly something in between.
+El modelo de puntuación ha cambiado en la versión 1.5 para proporcionar más granularidad al puntaje en una evaluación. Ahora una organización obtendrá crédito por los diferentes niveles de trabajo que han realizado dentro de una práctica, en lugar de sólo tener el número base del nivel de madurez más alto completado. La puntuación ahora es fraccional a dos decimales para cada práctica y un único decimal para cada respuesta. Las preguntas también han cambiado de Sí / No a cuatro opciones que representan diferentes niveles de cobertura o madurez. Este cambio ayudará a los practicantes, que están completando las evaluaciones de SAMM, con el invecitable debate sobre si marcar una respuesta sí o no cuando honestamente es algo intermedio.
 
-The primary reason for the scoring change was to ensure organizations would receive full credit for their work in software security and to make it easier to show improvements in scoring when activities and programs grow and mature. The hope is this change will bring us closer to understanding what works in different scenarios for different organizations to benefit all.
+La razón principal para el cambio de puntaje fue asegurar que las organizaciones recibieran crédito completo por su trabajo en seguridad de software, y que sea más fácil demostrar mejoras en el puntaje cuando las actividades y programas avanzan y maduran. La esperanza es que este cambio nos acerque a comprender lo que funciona en diferentes escenarios, en diferentes organizaciones, para beneficiar a todos.
 
-The toolbox spreadsheet has been updated to reflect more context aware answers for each of the questions in the assessment. The formulas in the toolbox will also average the answers to calculate the score for each practice, a roll up average for each business function, and an overall score. The toolbox also has updated scorecard graphics that help represent the current score and can help show improvements to the program as the answers to the questions change. The worksheets later in this document are also updated to align with the new scoring model.
+La hoja de cálculo de la caja de herramientas se ha actualizado para reflejar respuestas más conscientes del contexto en cada una de las preguntas de la evaluación. Las fórmulas en la caja de herramientas también promediarán las respuestas para calcular el puntaje para cada práctica, un promedio acumulado para cada función de negocio y un puntaje general. La caja de herramientas también ha actualizado los gráficos de las hojas de calificación que ayudan a representar el puntaje actual y pueden ayudar a mostrar mejoras en el programa a medida que cambian las respuestas a las preguntas. Las hojas de trabajo, más adelante en este documento, también se actualizaron para alinearse con el nuevo modelo de puntuación.
 
 * **No = 0**
-* **Few/Some = .2**
-*  **At Least Half = .5**
-*  **Many/Most = 1**
+* **Pocos/Algunos = .2**
+*  **Al menos la mitad = .5**
+*  **Muchos/La mayoría = 1**
 
 # Governance
 ## Description of Security Practices
